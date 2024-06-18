@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.UpdateProductActivity">
+
+
+    <ImageView
+        android:id="@+id/imageName"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_add_a_photo_24" />
+
+    <EditText
+        android:id="@+id/updatename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the product name" />
+
+    <EditText
+        android:id="@+id/updatedescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the product description" />
+
+    <EditText
+        android:id="@+id/updateprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the product price" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:id="@+id/Update"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.AddProductActivity">
+
+    <ImageView
+        android:id="@+id/imageBrowser"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_add_a_photo_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Click on image to browse"
+        android:layout_marginBottom="30sp"/>
+
+    <EditText
+        android:id="@+id/newname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the product name" />
+
+    <EditText
+        android:id="@+id/newdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the producdescription" />
+
+    <EditText
+        android:id="@+id/newprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the productprice" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:id="@+id/addButton"/>
+
+</LinearLayout>
